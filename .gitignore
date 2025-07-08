@@ -1,0 +1,25 @@
+# Local .terraform directories (used for plugins, provider cache, etc.)
+**/.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Terraform plan files
+*.tfplan
+
+# Terraform variable overrides
+*.tfvars.json
+
+# Terraform logs
+.terraform.tfstate.lock.info
+.terraform.lock.hcl
+
+# Terragrunt cache
+.terragrunt-cache/
+
+# Terragrunt log files (if enabled)
+terragrunt-debug.tf.json
