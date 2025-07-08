@@ -63,7 +63,6 @@ provider "azurerm" {
     }
   }
 }
-}
 
 provider "azurerm" {
   alias           = "saas-shared"
@@ -90,5 +89,6 @@ terraform {
       version = "3.3.0"
     }
   }
+}
 EOF
 }
